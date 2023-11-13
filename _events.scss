@@ -1,0 +1,58 @@
+.events {
+    margin-bottom: 40px;
+
+    &-title {
+        text-align: center;
+        font-size: 4vmin;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    &-row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+
+        &-col {
+            display: flex;
+            flex-basis: 42%;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            gap: 15px;
+            img{
+                width: 80%;
+                height: 250px;
+                border-radius: 5px;
+                border: 10px solid black;
+            }
+        
+
+            h4 {
+                margin: 5px;
+                color: $primary-color;
+            }
+
+            p {
+                text-align: center;
+                word-wrap: wrap;
+                word-break: break-all;
+                font-size: 18px;
+                width: 80%;
+                color:  $thirdy-color;
+            }
+
+            .mybutton {
+                margin: 5px;
+            }
+            
+        }
+
+    }
+}
+
+
+
+

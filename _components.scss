@@ -1,0 +1,28 @@
+// özel buton
+
+.mybutton {
+    display: inline-block;
+    color: $text-color;
+    background-color: $primary-color;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    
+    &:hover{
+        background-color: $text-color;
+        color: $primary-color;
+    border: 1px solid $primary-color;
+
+    }
+}
+
+// pembe çubuk
+
+.line {
+    background-color: $primary-color;
+    width: 150px;
+    height: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+.tours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+
+    .line {
+        margin-bottom: 15px;
+    }
+    
+
+    &-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vmin;
+        margin-right: 5px;
+        p{
+            width: 75%;
+        }
+    }
+
+    &-right {
+        width: 100vmin;
+        margin-top: 10px;
+
+        &-gallery{
+            
+            img {
+            width: 40vmin;
+            height: 40vmin;
+            object-fit: cover;
+        }
+    }
+}
+}
